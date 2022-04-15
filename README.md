@@ -34,7 +34,6 @@ Contains initial unbound.conf as well
 ## Quickstart
 
 Ubuntu: How To Free Up Port 53, Used By systemd-resolved
-
 https://www.linuxuprising.com/2020/07/ubuntu-how-to-free-up-port-53-used-by.html
 
 To get started all you need to do is clone the repository and spin up the containers.
