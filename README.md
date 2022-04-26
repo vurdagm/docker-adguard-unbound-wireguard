@@ -39,7 +39,7 @@ https://www.linuxuprising.com/2020/07/ubuntu-how-to-free-up-port-53-used-by.html
 To get started all you need to do is clone the repository and spin up the containers.
 
 ```bash
-git clone https://github.com/naazf/docker-adguard-unbound-wireguard.git
+git clone https://github.com/vurdagm/docker-adguard-unbound-wireguard.git
 cd docker-adguard-unbound-wireguard
 docker-compose up -d
 ```
