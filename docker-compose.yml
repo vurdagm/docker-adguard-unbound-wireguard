@@ -59,8 +59,8 @@ services:
       - "./adguard/opt-adguard-work:/opt/adguardhome/work"
       - "./adguard/opt-adguard-conf:/opt/adguardhome/conf"
     ports:
-      - "8080:80/tcp" # allow to login to AdGuard Dashboard via port 8080
-      - "8300:3000/tcp" # allow to perform initial config of AdGuard via port 8300
+      - "51080:80/tcp" # allow to login to AdGuard Dashboard via port 8080
+      - "53000:3000/tcp" # allow to perform initial config of AdGuard via port 8300
       - "53:53/tcp"  # allow to use AdGuard as separate DNS server
       - "53:53/udp"  # allow to use AdGuard as separate DNS server
 
