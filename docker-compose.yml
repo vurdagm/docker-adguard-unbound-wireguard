@@ -32,7 +32,7 @@ services:
       - TZ=Europe/London # Change to your timezone
       - SERVERPORT=51820
       #- SERVERURL=my.ddns.net #optional - For use with DDNS (Uncomment to use)
-      - PEERS=1 # How many peers to generate for you (clients)
+      - PEERS=10 # How many peers to generate for you (clients)
       - PEERDNS=10.2.0.100 # Set it to point to adguard home
       - INTERNAL_SUBNET=10.6.0.0
       #- ALLOWEDIPS=10.2.0.0/24 # optional - split tunnel for web panel and DNS traffic only
