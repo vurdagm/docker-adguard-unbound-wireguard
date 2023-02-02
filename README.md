@@ -47,7 +47,7 @@ docker-compose up -d
 Run folowing from the host get the QR code:
 
 ```bash
-ubuntu@adguard-wireguard:~$ sudo docker logs wireguard
+ubuntu@adguard-wireguard:~$ docker exec -it wireguard /app/show-peer 1
 wireguard    | **** Internal subnet is set to 10.6.0.0 ****
 wireguard    | **** Peer DNS servers will be set to 10.2.0.100 ****
 wireguard    | **** No found wg0.conf found (maybe an initial install), generating 1 server and 1 peer/client confs ****
